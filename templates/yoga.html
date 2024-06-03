@@ -1,0 +1,236 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alo Moves</title>
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="logo">
+        
+        <img src="{% static 'logo.png' %}" class="logo-img">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Instructors</a></li>
+        </ul>
+      </nav>
+      <div class="user-account">
+        <a href="#">SIGN IN</a>
+      </div>
+    </div>
+    <div class="header">
+      <!-- Navigation Bar -->
+    </div>
+  </header>
+
+  <div class="main-content">
+    <main>
+      <section>
+        <video width="100%" height="auto" autoplay muted loop playsinline>
+          <source src="{% static 'videos/pexels.mp4' %}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+          <h1>WELCOME TO YOUR WELLNESS ERA</h1>
+          <p>Prioritize your wellness goals with award-winning fitness, meditation, nutrition, and self-care classes on Alo Moves.</p>
+          <div class="cta-box">
+            <a href="#">START FREE TRIAL</a>
+          </div>
+          <div class="cta-text">
+            <a href="#">Send a Gift Card</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="contact">
+      <a href="#">Email Us</a>
+    </div>
+    <div class="section section1">
+      <h1>FIND WHAT MOVES YOU</h1>
+      <p>Whether you’re a complete beginner or you want to step up your routine, get the full studio experience at home with thousands of classes for body, mind, and spirit.</p>
+    </div>
+   
+    <div class="image-list">
+      <div class="image-container">
+        <img src="{% static 'yoga.png' %}" alt="Yoga">
+        <div class="text">
+          <h2>YOGA</h2>
+          <p>Image description goes here.</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="{% static 'fitness.png' %}" alt="Fitness">
+        <div class="text">
+          <h2>FITNESS</h2>
+          <p>Image description goes here.</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="{% static 'mindfulness.png' %}" alt="Mindfulness">
+        <div class="text">
+          <h2>MINDFULNESS</h2>
+          <p>Image description goes here.</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="{% static 'self-care.png' %}" alt="Self-Care">
+        <div class="text">
+          <h2>SELF-CARE</h2>
+          <p>Image description goes here.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="meet-instructors">
+      <h1>MEET YOUR INSTRUCTORS</h1>
+      <p>We work with the best so you can feel your best. Our team of top instructors will empower you to reach all your fitness and wellness goals and enjoy the journey on the way.</p>
+    </div>
+    
+    <div class="instructors-list">
+      
+        <img src="{% static 'instructor-Bianca.png' %}"  alt="Instructor 1">
+        <div class="instructor-description">
+          <h3>BIANCA MELAS</h3>
+          <p>Pilates Instructor</p>
+        </div>
+      </div>
+    
+      <div class="instructors-list">
+        <img src="{% static 'instructor-Annie.png' %}"alt="Instructor 2">
+        <div class="instructor-description">
+          <h3>ANNIE MOVES</h3>
+          <p>Yoga Instructor</p>
+        </div>
+      </div>
+      <div class="instructors-list">
+       
+          <img src="{% static 'instructor-Louis.png' %}"  alt="Instructor 1">
+          <div class="instructor-description">
+            <h3>LOUIS CHANDLER</h3>
+            <p>Fitness Instructor</p>
+          </div>
+        </div>
+        <div class="instructors-list">
+          
+            <img src="{% static 'instructor-Katia.png' %}"  alt="Instructor 1">
+            <div class="instructor-description">
+              <h3>KATIA PRYCE</h3>
+              <p>Dance Instructor</p>
+            </div>
+          </div>
+          <div class="instructors-list">
+            
+              <img src="{% static 'instructor-Kirat.png' %}"  alt="Instructor 1">
+              <div class="instructor-description">
+                <h3>KIRAT RANDHAWA</h3>
+                <p>Meditation Instructor</p>
+              </div>
+              <div class="instructors-list">
+                
+                  <img src="{% static 'instructor-Nicole.png' %}"  alt="Instructor 1">
+                  <div class="instructor-description">
+                    <h3>NICOLE BERRIE</h3>
+                    <p>Nutrition Instructor</p>
+                  </div>
+            </div>
+            <div class="container">
+              <div class="half-container">
+                <img src="{% static 'world_class_wellness_image.png' %}" alt="World-Class Wellness Image">
+              </div>
+              <div class="half-container">
+                <div class="wellness">
+                  <h2>WORLD-CLASS WELLNESS. WHEREVER YOU ARE</h2>
+                  <p>Take your favorite classes at home, while traveling, or outdoors. Download classes on the app for a practice that moves with you.</p>
+                  
+                    <a href="#" class="download-link">Download from the Apple Store</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-section">
+              
+                <h2>ON THE BLOG</h2>
+                <p>Weekly inspiration for mindful living. Discover yoga sequences, short workouts, recipes, and mindfulness tips from the experts.</p>
+              </div>
+              <div class="image-list">
+              <div class="blog-section ">
+                <div class="text">Description of Image 1</div>
+                <img src="{% static 'emotional_wellness.png' %}" alt="Image 1">
+              </div>
+              <div class="blog-section ">
+                <div class="text">Description of Image 2</div>
+                <img src="{% static 'pilates.png' %}" alt="Image 2">
+              </div>
+              <div class="blog-section ">
+                <div class="text">Description of Image 3</div>
+                <img src="{% static 'yoga(1).png' %}" alt="Image 3">
+              </div>
+            </div>
+          </div>  
+          <<div class="parallax-container" style="background-image: url('{% static 'R.png' %}'); background-size: cover; background-position: center; background-attachment: fixed; height: 500px; padding-top: 50px; padding-bottom: 30px;">
+            <div class="text-block">
+            <h1>TRANSFORM YOUR LIFE IN 14 DAYS</h1>
+            <p>Get started today with free access to thousands of fitness and wellness classes.</p>
+            <button>START YOUR FREE TRIAL</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="follow-us">
+            <h1>FOLLOW US</h1>
+            <div class="icon-bar">
+              <a class="active" href="#"><i class="fa fa-home"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="additional-content">
+          <footer>
+            <div class="logo2">
+              <img src="{% static 'logo.png' %}" class="logo-img">
+              <section>
+                <h2>Download the Alo Moves app to take classes offline and practice anytime, anywhere.</h2>
+                <button>Download on the App Store</button>
+              </section>
+              
+              <nav>
+                <ul> 
+                  
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">CONTACT US</a></li>
+                  <li><a href="#">REFER</a></li>
+                  <li><a href="#">GIFT CARDS</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">CAREERS</a></li>
+                </ul>
+               
+              </nav>
+            </div>
+            
+            <div class="footer-links">
+              <nav>
+              <ul>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Cookies</a></li>
+              </ul>
+            </nav>
+          </div>
+          <p>&copy;2024 Alo Moves. All Rights Reserved.</p>
+      </div>
+          </footer>
+        </div>
+        </body>
+        </html>
